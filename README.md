@@ -85,7 +85,45 @@ Identify and optimize performance bottlenecks.
 
 - `cProfile` identifies slow functions  
 - `line_profiler` pinpoints slow lines  
-- Effective optimization requires **measurement, not intuition**  
+- Effective optimization requires **measurement, not intuition**
+
+## 📂 Project Structure
+
+python-execution-lab/
+│
+├── experiments/
+│ ├── 1_threading_vs_multiprocessing/
+│ ├── 2_async_vs_blocking_io/
+│ ├── 3_lists_vs_generators/
+│ ├── 4_gil_impact/
+│ ├── 5_profiling/
+│
+├── results/
+│ └── graphs/
+│
+├── requirements.txt
+└── README.md
+
+---
+
+## ▶️ How to Run
+
+### Clone the repository:
+
+```bash
+git clone https://github.com/your-username/python-execution-lab.git
+cd python-execution-lab
+
+---
+
+## Install dependencies
+pip install -r requirements.txt
+
+---
+## Run any experiment
+cd experiments/1_threading_vs_multiprocessing
+python single_thread.py
+
 
 ---
 
