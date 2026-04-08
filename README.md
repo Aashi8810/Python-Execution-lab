@@ -89,6 +89,4 @@ Identify and optimize performance bottlenecks.
 
 ---
 
-## 📊 Results
 
-Graphs and measurements are available in:
