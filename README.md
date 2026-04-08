@@ -89,22 +89,25 @@ Identify and optimize performance bottlenecks.
 
 ## 📂 Project Structure
 
-#python-execution-lab/
-#│
-#├── experiments/
-#│ ├── 1_threading_vs_multiprocessing/
-#│ ├── 2_async_vs_blocking_io/
-#│ ├── 3_lists_vs_generators/
-#│ ├── 4_gil_impact/
-#│ ├── 5_profiling/
-#│
-#├── results/
-#│ └── graphs/
-#│
-#├── requirements.txt
-#└── README.md
+## 📂 Project Structure
 
----
+```
+python-execution-lab/
+│
+├── experiments/
+│   ├── 1_threading_vs_multiprocessing/
+│   ├── 2_async_vs_blocking_io/
+│   ├── 3_lists_vs_generators/
+│   ├── 4_gil_impact/
+│   └── 5_profiling/
+│
+├── results/
+│   └── graphs/
+│
+├── requirements.txt
+└── README.md
+```
+
 
 ## ▶️ How to Run
 
