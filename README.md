@@ -87,7 +87,6 @@ Identify and optimize performance bottlenecks.
 - `line_profiler` pinpoints slow lines  
 - Effective optimization requires **measurement, not intuition**
 
-## 📂 Project Structure
 
 ## 📂 Project Structure
 
